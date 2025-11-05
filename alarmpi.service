@@ -1,0 +1,10 @@
+[Unit]
+Description=Service alarm pi
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=sh -c 'while ! ping -c 1 8.8.8.8; do sleep 1; done;/usr/bin/python3 /home/orangepi/Documents/python/alarm1.0.py > /dev/null 2>&1'
+[Install]
+WantedBy=network-online.target
