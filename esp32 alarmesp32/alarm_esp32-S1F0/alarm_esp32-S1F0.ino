@@ -23,7 +23,9 @@ const char* recipients[] = {
   "olivierrenault75@gmail.com",
   "oliv_ren@yahoo.fr",
   "sophie.renault@yahoo.fr",
-  "exemple2@yahoo.fr"
+  "prenault@gmail.com",
+  "baptisterenault09@gmail.com",
+  "alexandrerenault0301@gmail.com"
 };
 const int nbRecipients = sizeof(recipients) / sizeof(recipients[0]);
 
@@ -150,7 +152,7 @@ void setup() {
     pinMode(switches[i], INPUT);
   }
 
-  sendEmail("Reboot ESP32", "L'ESP32 vient de redémarrer. IP: " + WiFi.localIP().toString());
+  sendEmail("Reboot ESP32 alarme", "L'ESP32 de l'alarme vient de redémarrer. IP: " + WiFi.localIP().toString());
 }
 
 // ---------------------------------------------------------
