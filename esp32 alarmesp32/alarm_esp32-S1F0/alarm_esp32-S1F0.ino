@@ -4,8 +4,8 @@
 // -------------------
 // CONFIG WIFI
 // -------------------
-const char* ssid = "plopplopplop";
-const char* wifi_password = "papapapa";
+const char* ssid = "monssid";
+const char* wifi_password = "cle";
 
 // -------------------
 // CONFIG Gmail SMTP
@@ -13,19 +13,19 @@ const char* wifi_password = "papapapa";
 const char* smtp_server = "smtp.gmail.com";
 const int smtp_port = 465;
 
-const char* email_login = "olivierrenault75@gmail.com";
-const char* email_password = "abnd khos zbab yxsk";   // mot de passe d'application Gmail
+const char* email_login = "mymail@gmail.com";
+const char* email_password = "abcd abds jhfd kjgs";   // mot de passe d'application Gmail
 
-const char* email_from = "olivierrenault75@gmail.com";
+const char* email_from = "my@gmail.com";
 
 // Tableau de destinataires
 const char* recipients[] = {
-  "olivierrenault75@gmail.com",
-  "oliv_ren@yahoo.fr",
-  "sophie.renault@yahoo.fr",
-  "prenault@gmail.com",
-  "baptisterenault09@gmail.com",
-  "alexandrerenault0301@gmail.com"
+  "fdfd@gmail.com",
+  "fesgf@yahoo.fr",
+  "kdsjkfd@yahoo.fr",
+  "vdgvfd@gmail.com",
+  "dvdsv@gmail.com",
+  "cdvfdfd@gmail.com"
 };
 const int nbRecipients = sizeof(recipients) / sizeof(recipients[0]);
 
