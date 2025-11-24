@@ -8,9 +8,9 @@ from email.mime.text import MIMEText
 ip= subprocess.getoutput("ifconfig wlan0 |grep inet | awk '{print $2}'")
 subject = "reboot du orangepi"
 body = "le orangepi vient de rebooter. IP:"+ip
-sender = "olivierrenault75@gmail.com"
-recipients = ["olivierrenault75@gmail.com", "oliv_ren@yahoo.fr"]
-password = "askqoqprsqgcgimd"
+sender = "gfgh@gmail.com"
+recipients = ["hfhgf@gmail.com", "oliv_ren@yahoo.fr"]
+password = "hgfhgfhghgf"
 
 # Signal: 'INT','PA','SET','ABORT'
 switches = [74, 75, 79, 230]
