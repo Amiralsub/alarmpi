@@ -5,7 +5,7 @@
 // CONFIG WIFI
 // -------------------
 const char* ssid = "plopplopplop";
-const char* wifi_password = "papapapa";
+const char* wifi_password = "xxxx";
 
 // -------------------
 // CONFIG Gmail SMTP
@@ -13,9 +13,9 @@ const char* wifi_password = "papapapa";
 const char* smtp_server = "smtp.gmail.com";
 const int smtp_port = 465;
 
-const char* email_login = "olivierrenault75@gmail.com";
-const char* email_password = "abnd khos zbab yxsk";   // mot de passe d'application Gmail
-const char* email_from = "olivierrenault75@gmail.com";
+const char* email_login = "xxxxx@gmail.com";
+const char* email_password = "xxxxx";   // mot de passe d'application Gmail
+const char* email_from = "xxxx@gmail.com";
 
 // Destinataires
 const char* recipients[] = {
