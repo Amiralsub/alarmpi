@@ -14,7 +14,7 @@ const char* smtp_server = "smtp.gmail.com";
 const int smtp_port = 465;
 
 const char* email_login = "mymail@gmail.com";
-const char* email_password = "abcd abds jhfd kjgs";   // mot de passe d'application Gmail
+const char* email_password = "axxxxxxs";   // mot de passe d'application Gmail
 
 const char* email_from = "my@gmail.com";
 
